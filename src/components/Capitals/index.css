@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  background-color: #93c5fd;
+  height: 100vh;
+  justify-content: center;
+}
+.card-container {
+  padding: 5%;
+  background-color: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  height: 80%;
+  width: 60%;
+  margin: 5%;
+}
+.heading {
+  color: #000000;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: 'roboto';
+}
+
+.select {
+  color: #000000;
+  font-weight: bold;
+  width: 20%;
+  margin-top: 20px;
+  height: 60px;
+  font-size: 25px;
+  font-family: 'roboto';
+  border-radius: 10px;
+  border: 1px solid #cbd2d9;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.which-country {
+  color: #323f4b;
+  font-weight: 500;
+  font-family: 'roboto';
+  font-size: 30px;
+  margin-left: 8px;
+}
+.country {
+  margin-top: 20px;
+  color: #000000;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: 'roboto';
+}
